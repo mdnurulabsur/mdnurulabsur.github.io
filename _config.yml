@@ -6,20 +6,20 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Md Nurul Absur"
-description              : &description "personal description"
-url        : https://mdnurulabsur.github.io
-baseurl    : ""   # keep this exactly like this
-repository : "mdnurulabsur/mdnurulabsur.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+locale          : "en-US"
+title           : "Md Nurul Absur"
+title_separator : "-"
+name            : "Md Nurul Absur"
+description     : "PhD Candidate in Computer Science at CUNY Graduate Center. Edge intelligence, multimodal sensing, and resilient XR systems."
+url             : "https://mdnurulabsur.github.io"
+baseurl         : ""
+repository      : "mdnurulabsur/mdnurulabsur.github.io"
+teaser          :
+breadcrumbs     : false
+words_per_minute: 160
+future          : true
+read_more       : "disabled"
+talkmap_link    : false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
