@@ -1,8 +1,8 @@
-Md Nurul Absur:
+mdnurulabsur:
   name        : "Md Nurul Absur"
-  uri         : "https://mdnurulabsur.github.io"
+  bio         : "PhD Candidate in Computer Science at CUNY Graduate Center. Edge intelligence, multimodal sensing, and XR systems."
+  avatar      : "/images/profile.jpg"     # replace after uploading your photo
   email       : "mabsur@gradcenter.cuny.edu"
-  bio         : "PhD Candidate in Computer Science at CUNY Graduate Center. Edge intelligence, multimodal sensing, and resilient XR systems."
-  avatar      : "images/profile.jpg"   # change once you upload a photo
   github      : "mdnurulabsur"
-  # add scholar, linkedin, twitter etc later
+  linkedin    : "nurulabsur"
+  scholar     : "YOUR_GOOGLE_SCHOLAR_ID"
