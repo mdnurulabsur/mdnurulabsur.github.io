@@ -62,38 +62,42 @@ Add more news items in the list above; the box will scroll automatically.
 
 ## Visitors
 
-## Visitors
-
-### Visitor Counter
-<img
-  src="https://visitor-badge.laobi.icu/badge?page_id=mdnurulabsur.mdnurulabsur.github.io"
-  alt="visitor counter"
-/>
-
 ### Visitor Geography
 
 <div
   style="
-    border: 1px solid rgba(255,255,255,0.15);
-    padding: 14px;
-    border-radius: 12px;
-    max-width: 620px;
+    border: 1px solid rgba(255,255,255,0.14);
+    background: rgba(255,255,255,0.04);
+    padding: 16px;
+    border-radius: 14px;
+    max-width: 640px;
   "
 >
-  <p style="margin: 0 0 10px 0; font-size: 14px; opacity: 0.85;">
-    Global visitor distribution (live analytics)
-  </p>
+  <div style="font-size: 14px; opacity: 0.85; margin-bottom: 10px;">
+    Global visitor distribution
+  </div>
 
   <a
     href="https://mapmyvisitors.com/web/1c23e"
     target="_blank"
     rel="noopener noreferrer"
-    style="font-weight: 500;"
+    style="
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      text-decoration: none;
+      font-weight: 600;
+    "
   >
-    View interactive world map →
+    Open live visitor map →
   </a>
-</div>
 
+  <div style="margin-top: 10px; font-size: 12.5px; opacity: 0.7;">
+    Opens the interactive analytics dashboard in a new tab.
+  </div>
+</div>
 
 ---
 
