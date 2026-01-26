@@ -2,6 +2,7 @@
 title: "Publications"
 permalink: /publications/
 author_profile: true
+collection: publications
 ---
 
 {% include base_path %}
