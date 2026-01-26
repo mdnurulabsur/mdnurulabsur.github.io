@@ -63,30 +63,55 @@ Add more news items in the list above; the box will scroll automatically.
 ## Visitors
 
 ### Visitor Counter
-<p style="margin-bottom: 10px;">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=mdnurulabsur.mdnurulabsur.github.io" alt="visitor badge">
+<p style="margin-bottom: 12px;">
+  <img
+    src="https://visitor-badge.laobi.icu/badge?page_id=mdnurulabsur.mdnurulabsur.github.io"
+    alt="visitor badge"
+    style="vertical-align: middle;"
+  />
 </p>
 
-### Visitor World Map (ClustrMaps)
+### Visitor World Map
 
-<div style="border:1px solid #e0e0e0; padding: 12px; border-radius: 10px; max-width: 560px;">
-  <div style="font-size: 13px; opacity: 0.8; margin-bottom: 8px;">
+<div
+  style="
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 460px;
+  "
+>
+  <div
+    style="
+      font-size: 13px;
+      opacity: 0.75;
+      margin-bottom: 8px;
+    "
+  >
     Visitor Map
   </div>
 
-  <a href="https://mapmyvisitors.com/web/1c23e" title="Visit tracker" target="_blank" rel="noopener noreferrer">
+  <a
+    href="https://mapmyvisitors.com/web/1c23e"
+    title="Visit tracker"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img
       src="https://mapmyvisitors.com/map.png?d=Aw74Zvifxlua5KIwlObrxkeqUliOblL8grQggJu7hRQ&cl=ffffff"
       alt="Visitor map"
-      style="width: 100%; border-radius: 8px;"
+      style="
+        width: 420px;
+        max-width: 100%;
+        border-radius: 8px;
+        image-rendering: auto;
+      "
     />
   </a>
 </div>
 
 
-<p style="font-size: 13px; opacity: 0.75; margin-top: 6px;">
-If the map doesn’t load, it means the widget id is not set. Replace <code>YOUR_CLUSTRMAPS_WIDGET_ID</code> with the value from ClustrMaps.
-</p>
+
 
 ---
 
