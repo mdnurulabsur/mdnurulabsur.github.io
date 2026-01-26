@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 locale                   : "en-US"
@@ -20,12 +20,6 @@ repository               : "mdnurulabsur/mdnurulabsur.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-
-
- # Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
-
 author:
   avatar           : "profilepic.jpg"
   name             : "Md Nurul Absur"
@@ -47,7 +41,6 @@ author:
   semantic         :
   ssrn             :
   pubmed           :
-  researchgate     : "https://www.researchgate.net/profile/Md-Absur?ev=hdr_xprf"
   scopus           :
   zotero           :
 
@@ -86,9 +79,10 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -96,17 +90,21 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : false      # change to true to add link to talkmap on talks page
+
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               :
   facebook:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+
+
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -123,25 +121,14 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
+
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
-plugins:
-  - jekyll-scholar
+
 # SEO Related
-
-whitelist:
-  - jekyll-scholar
-
- scholar:
-  style: ieee
-  locale: en
-  bibliography: publications
-  bibliography_template: bib
-  sort_by: year
-  order: descending
- 
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
@@ -157,17 +144,15 @@ facebook:
   publisher              :
 og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   :
+  name                   :
+  links:
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -177,6 +162,8 @@ include:
   - .htaccess
   - _pages
   - files
+  - _bibliography
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -204,9 +191,13 @@ exclude:
   - README
   - tmp
   - vendor
+
+
 keep_files:
   - .git
   - .svn
+
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -260,6 +251,7 @@ defaults:
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -267,6 +259,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _teaching
   - scope:
       path: ""
@@ -276,6 +269,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   # _publications
   - scope:
       path: ""
@@ -285,6 +279,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   # _portfolio
   - scope:
       path: ""
@@ -294,6 +289,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+
   # _talks
   - scope:
       path: ""
@@ -307,17 +303,25 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Etc/UTC
 
 
-# Plugins
+# Scholar (BibTeX rendering)
+scholar:
+  style: ieee
+  locale: en
+  bibliography: publications
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+
+
+# Plugins (single consolidated list)
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -325,8 +329,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-scholar
 
-# Mimic GitHub Pages with --safe
+
+# Mimic GitHub Pages with --safe (single consolidated list)
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -334,39 +340,19 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-scholar
 
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
