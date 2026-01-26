@@ -130,6 +130,10 @@ atom_feed:
 plugins:
   - jekyll-scholar
 # SEO Related
+
+whitelist:
+  - jekyll-scholar
+ 
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
