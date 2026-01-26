@@ -62,14 +62,37 @@ Add more news items in the list above; the box will scroll automatically.
 
 ## Visitors
 
-<div style="max-width: 460px; margin-top: 12px;">
-  <script
-    type="text/javascript"
-    id="mmvst_globe"
-    src="//mapmyvisitors.com/globe.js?d=Oob_4LVdSpCQXcsBOw0rmSsF1wUethNdSmjyWozuT10">
-  </script>
-</div>
+## Visitors
 
+### Visitor Counter
+<img
+  src="https://visitor-badge.laobi.icu/badge?page_id=mdnurulabsur.mdnurulabsur.github.io"
+  alt="visitor counter"
+/>
+
+### Visitor Geography
+
+<div
+  style="
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 14px;
+    border-radius: 12px;
+    max-width: 620px;
+  "
+>
+  <p style="margin: 0 0 10px 0; font-size: 14px; opacity: 0.85;">
+    Global visitor distribution (live analytics)
+  </p>
+
+  <a
+    href="https://mapmyvisitors.com/web/1c23e"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="font-weight: 500;"
+  >
+    View interactive world map →
+  </a>
+</div>
 
 
 ---
