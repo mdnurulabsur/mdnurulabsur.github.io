@@ -69,22 +69,20 @@ Add more news items in the list above; the box will scroll automatically.
 
 ### Visitor World Map (ClustrMaps)
 
-<div style="border:1px solid #e0e0e0; padding: 12px; border-radius: 10px; max-width: 520px;">
+<div style="border:1px solid #e0e0e0; padding: 12px; border-radius: 10px; max-width: 560px;">
   <div style="font-size: 13px; opacity: 0.8; margin-bottom: 8px;">
-    Live visitor map (ClustrMaps)
+    Visitor Map
   </div>
 
-  <!--
-    IMPORTANT:
-    1) Create a ClustrMaps widget for your site.
-    2) Replace YOUR_CLUSTRMAPS_WIDGET_ID below with your real widget id from ClustrMaps embed code.
-  -->
-  <a href="https://clustrmaps.com/site/YOUR_CLUSTRMAPS_WIDGET_ID" title="Visit tracker" target="_blank" rel="noopener noreferrer">
-    <img src="https://clustrmaps.com/map_v2.png?d=YOUR_CLUSTRMAPS_WIDGET_ID&cl=ffffff&w=a"
-         alt="Visitor map"
-         style="width: 100%; border-radius: 8px;">
+  <a href="https://mapmyvisitors.com/web/1c23e" title="Visit tracker" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://mapmyvisitors.com/map.png?d=Aw74Zvifxlua5KIwlObrxkeqUliOblL8grQggJu7hRQ&cl=ffffff"
+      alt="Visitor map"
+      style="width: 100%; border-radius: 8px;"
+    />
   </a>
 </div>
+
 
 <p style="font-size: 13px; opacity: 0.75; margin-top: 6px;">
 If the map doesn’t load, it means the widget id is not set. Replace <code>YOUR_CLUSTRMAPS_WIDGET_ID</code> with the value from ClustrMaps.
