@@ -133,6 +133,14 @@ plugins:
 
 whitelist:
   - jekyll-scholar
+
+ scholar:
+  style: ieee
+  locale: en
+  bibliography: publications
+  bibliography_template: bib
+  sort_by: year
+  order: descending
  
 google_site_verification :
 bing_site_verification   :
