@@ -22,8 +22,11 @@ repository               : "mdnurulabsur/mdnurulabsur.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 
 
-  # Academic websites
- author:
+ # Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+
+author:
   avatar           : "profilepic.jpg"
   name             : "Md Nurul Absur"
   pronouns         :
@@ -31,37 +34,51 @@ repository               : "mdnurulabsur/mdnurulabsur.github.io"
   location         : "New York, USA"
   employer         : "CUNY Graduate Center"
   uri              : "https://mdnurulabsur.github.io"
-  email            : email: "mabsur [at] gradcenter [dot] cuny [dot] edu"
+  email            : "mabsur [at] gradcenter [dot] cuny [dot] edu"
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   orcid            : "https://orcid.org/0009-0006-1986-2120"
   researchgate     : "https://www.researchgate.net/profile/Md-Absur?ev=hdr_xprf"
+  academia         :
   arxiv            :
   inspire-hep      :
   impactstory      :
   semantic         :
   ssrn             :
   pubmed           :
+  researchgate     : "https://www.researchgate.net/profile/Md-Absur?ev=hdr_xprf"
   scopus           :
   zotero           :
 
   # Repositories and software development
-  github           : "mdnurulabsur"
   bitbucket        :
   codepen          :
   dribbble         :
+  github           : "mdnurulabsur"
   kaggle           :
   stackoverflow    :
 
   # Social media / public profiles
-  linkedin         : "mdnurulabsur"
-  twitter          :
+  artstation       :
   bluesky          :
   facebook         :
   instagram        :
+  linkedin         : "mdnurulabsur"
+  mastodon         :
   medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
   youtube          :
+  zhihu            :
 
 
 # Publication Category - The following the list of publication categories and their headings
