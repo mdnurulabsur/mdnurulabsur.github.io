@@ -64,39 +64,10 @@ Add more news items in the list above; the box will scroll automatically.
 
 ### Visitor Geography
 
-<div
-  style="
-    border: 1px solid rgba(255,255,255,0.14);
-    background: rgba(255,255,255,0.04);
-    padding: 16px;
-    border-radius: 14px;
-    max-width: 640px;
-  "
->
-  <div style="font-size: 14px; opacity: 0.85; margin-bottom: 10px;">
-    Global visitor distribution
-  </div>
+### Visitor Map
 
-  <a
-    href="https://mapmyvisitors.com/web/1c23e"
-    target="_blank"
-    rel="noopener noreferrer"
-    style="
-      display: inline-block;
-      padding: 10px 14px;
-      border-radius: 10px;
-      border: 1px solid rgba(255,255,255,0.18);
-      background: rgba(255,255,255,0.06);
-      text-decoration: none;
-      font-weight: 600;
-    "
-  >
-    Open live visitor map →
-  </a>
-
-  <div style="margin-top: 10px; font-size: 12.5px; opacity: 0.7;">
-    Opens the interactive analytics dashboard in a new tab.
-  </div>
+<div style="border: 1px solid rgba(255,255,255,0.14); padding: 12px; border-radius: 12px; max-width: 520px;">
+  <img src="PASTE_FLAGCOUNTER_IMAGE_URL_HERE" alt="Visitor map" style="width:100%; border-radius: 10px;">
 </div>
 
 ---
