@@ -54,9 +54,6 @@ My research lies at the intersection of Computer Vision and Systems, advancing E
 </ul>
 </div>
 
-<p style="font-size: 13px; opacity: 0.75; margin-top: 6px;">
-Add more news items in the list above; the box will scroll automatically.
-</p>
 
 ---
 
@@ -70,7 +67,7 @@ Add more news items in the list above; the box will scroll automatically.
     background: rgba(255,255,255,0.04);
     padding: 12px;
     border-radius: 12px;
-    max-width: 520px;
+    max-width: 400px;
   "
 >
   <a
@@ -87,10 +84,7 @@ Add more news items in the list above; the box will scroll automatically.
     />
   </a>
 
-  <div style="margin-top: 8px; font-size: 12.5px; opacity: 0.7;">
-    Updated automatically. Click the map for details.
-  </div>
-</div>
+
 
 ---
 
