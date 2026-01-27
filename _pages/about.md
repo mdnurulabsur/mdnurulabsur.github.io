@@ -62,12 +62,34 @@ Add more news items in the list above; the box will scroll automatically.
 
 ## Visitors
 
-### Visitor Geography
-
 ### Visitor Map
 
-<div style="border: 1px solid rgba(255,255,255,0.14); padding: 12px; border-radius: 12px; max-width: 520px;">
-  <img src="PASTE_FLAGCOUNTER_IMAGE_URL_HERE" alt="Visitor map" style="width:100%; border-radius: 10px;">
+<div
+  style="
+    border: 1px solid rgba(255,255,255,0.14);
+    background: rgba(255,255,255,0.04);
+    padding: 12px;
+    border-radius: 12px;
+    max-width: 640px;
+  "
+>
+  <a
+    href="https://info.flagcounter.com/SwD1"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Visitor statistics"
+    style="text-decoration: none;"
+  >
+    <img
+      src="https://s01.flagcounter.com/map/SwD1/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/"
+      alt="Visitor Map"
+      style="width: 100%; border-radius: 10px; display: block;"
+    />
+  </a>
+
+  <div style="margin-top: 8px; font-size: 12.5px; opacity: 0.7;">
+    Updated automatically. Click the map for details.
+  </div>
 </div>
 
 ---
