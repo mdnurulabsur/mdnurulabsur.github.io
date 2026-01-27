@@ -70,7 +70,7 @@ Add more news items in the list above; the box will scroll automatically.
     background: rgba(255,255,255,0.04);
     padding: 12px;
     border-radius: 12px;
-    max-width: 640px;
+    max-width: 520px;
   "
 >
   <a
