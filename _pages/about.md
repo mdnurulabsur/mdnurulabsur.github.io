@@ -37,23 +37,20 @@ My research lies at the intersection of Computer Vision and Systems, advancing E
 
 ## News
 
-<div style="max-height: 380px; overflow-y: auto; border: 1px solid #e0e0e0; padding: 12px; border-radius: 10px;">
-<ul>
-  <li><strong>2026-01-26:</strong> Website updated with PhD vs collaboration publication grouping.</li>
-  <li><strong>2025-10:</strong> MASS 2025 paper on reliable multi-view 3D reconstruction listed on Publications.</li>
-  <li><strong>2025-10:</strong> CNSM 2025 papers listed on Publications.</li>
-  <li><strong>2025-10:</strong> LCN 2025 paper listed on Publications.</li>
-  <li><strong>2025-05:</strong> MobiHoc XR Workshop 2025 paper listed on Publications.</li>
-  <li><strong>2024-12:</strong> SEC 2024 poster listed on Publications.</li>
-  <li><strong>2025:</strong> Adjunct Lecturer, Hunter College (Computer Architecture).</li>
-  <li><strong>2025:</strong> Graduate TA, Hunter College (Operating Systems, Computer Architecture).</li>
-  <li><strong>2023-present:</strong> Graduate Research Assistant, CUNY Graduate Center.</li>
-  <li><strong>2025:</strong> Frontiers AI dengue framework published (collaboration).</li>
-  <li><strong>2025:</strong> MDPI Future Internet YOLOv8 vehicle stabilization paper published (collaboration).</li>
-  <li><strong>2025:</strong> IEEE ICNC paper on CDN optimization published.</li>
-</ul>
-</div>
+## News
 
+- **2026-01-26:** Website updated with PhD vs collaboration publication grouping.  
+- **2025-10:** MASS 2025 paper on reliable multi-view 3D reconstruction listed on Publications.  
+- **2025-10:** CNSM 2025 papers listed on Publications.  
+- **2025-10:** LCN 2025 paper listed on Publications.  
+- **2025-05:** MobiHoc XR Workshop 2025 paper listed on Publications.  
+- **2024-12:** SEC 2024 poster listed on Publications.  
+- **2025:** Adjunct Lecturer, Hunter College (Computer Architecture).  
+- **2025:** Graduate TA, Hunter College (Operating Systems, Computer Architecture).  
+- **2023-present:** Graduate Research Assistant, CUNY Graduate Center.  
+- **2025:** Frontiers AI dengue framework published (collaboration).  
+- **2025:** MDPI Future Internet YOLOv8 vehicle stabilization paper published (collaboration).  
+- **2025:** IEEE ICNC paper on CDN optimization published.  
 
 ---
 
@@ -88,10 +85,4 @@ My research lies at the intersection of Computer Vision and Systems, advancing E
 
 ---
 
-## Contact
 
-- Email: mabsur@gradcenter.cuny.edu  
-- Google Scholar: https://scholar.google.com/citations?user=9HBz3RgAAAAJ&hl=en  
-- LinkedIn: https://www.linkedin.com/in/mdnurulabsur/  
-- ResearchGate: https://www.researchgate.net/profile/Md-Absur  
-- GitHub: https://github.com/mdnurulabsur
