@@ -35,7 +35,6 @@ My research lies at the intersection of Computer Vision and Systems, advancing E
 
 ---
 
-## News
 
 ## News
 
@@ -54,7 +53,7 @@ My research lies at the intersection of Computer Vision and Systems, advancing E
 
 ---
 
-## Visitors
+
 
 ### Visitor Map
 
